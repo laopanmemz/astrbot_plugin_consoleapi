@@ -224,8 +224,6 @@ class Main(Star):
                             event.stop_event()
                             return
                         logger.debug(f'删除对话成功：{obj}')
-                        event.stop_event()
-                        return
         yield event.plain_result("已全部删除。")
         event.stop_event()
         return
