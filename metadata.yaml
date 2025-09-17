@@ -1,5 +1,5 @@
 name: astrbot_plugin_consoleapi
-desc: 将AstrBot控制台的API接口转为注册指令的工具
+desc: 此插件可将AstrBot控制台的部分API接口，转为可由用户直接对话执行的注册指令（现已实现AstrBot重启和删除对话数据）
 version: v1.0.0
 author: laopanmemz
-repo: https://github.com/Soulter/astrbot_plugin_consoleapi
+repo: https://github.com/laopanmemz/astrbot_plugin_consoleapi

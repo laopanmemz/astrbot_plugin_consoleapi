@@ -7,7 +7,7 @@ from astrbot.api.event import filter, AstrMessageEvent, MessageChain
 from astrbot.api.star import Context, Star, register
 from astrbot.api import logger
 
-@register("astrbot_plugin_consoleapi", "laopanmemz", "将AstrBot控制台的API接口转为注册指令的工具", "1.0.0")
+@register("astrbot_plugin_consoleapi", "laopanmemz", "此插件可将AstrBot控制台的部分API接口，转为可由用户直接对话执行的注册指令（现已实现AstrBot重启和删除对话数据）", "1.0.0")
 class Main(Star):
     def __init__(self, context: Context):
         super().__init__(context)
